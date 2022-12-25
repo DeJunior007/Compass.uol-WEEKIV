@@ -1,0 +1,84 @@
+:root {
+  --font-color: #000000;
+  --button-color: #3eb25e;
+  --button-hover-color: #ffff7d;
+  --checkbox-color: #3eb25e4d;
+  --checkbox-hover-color: #3eb25e;
+}
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5%;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+select {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  appearance: none;
+
+    min-width: 460px;
+    min-width: none;
+}
+input[type="checkbox"] {
+  appearance: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--checkbox-color);
+  margin-right: 2%;
+  display: block;
+  float: left;
+  
+}
+
+input:checked {
+  background: var(--checkbox-hover-color);
+  transition: 0.3s ease-in;
+  
+}
+label {
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.3rem;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+button{
+  color: #ffffff;
+  width: 95%;
+  max-width: 400px;
+  min-width: 120px;
+  height: 25px;
+  font-size: 1rem;
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 30px;
+}
+button:hover{
+  background: var(--button-hover-color);
+  color: black;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.twin-button{
+  width: 44%;
+  max-width: 175px;
+  min-width: 120px;
+  margin-left: 3%;
+  margin-right: 2%;
+  margin-bottom:3% ;
+}

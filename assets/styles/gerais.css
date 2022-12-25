@@ -1,0 +1,22 @@
+/*Gerais*/
+
+:root{
+    --font-color: #000000;
+    --button-color: #3EB25E;
+    --button-hover-color: #FFFF7D;
+    --checkbox-color: #3EB25E4D;
+    --checkbox-hover-color: #3EB25E;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doll{
+    width: 80%;
+}

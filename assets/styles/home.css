@@ -1,0 +1,39 @@
+:root{
+    --font-color: #000000;
+    --button-color: #3EB25E;
+    --button-hover-color: #FFFF7D;
+    --checkbox-color: #3EB25E4D;
+    --checkbox-hover-color: #3EB25E;
+}
+.container-text{
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    margin: 5%;
+}
+h2{
+    font-size: 2rem;
+    margin: 5%;
+}
+#button-home{
+    border: none;
+    background: var(--button-color) ;
+    width: 30%;
+    height: 20%;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color: #ffffff;
+    border-radius: 20px;
+    min-width: 150px;
+}
+
+#button-home:hover{
+    background: var(--button-hover-color);
+    color: black;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.doll{
+    padding-top: 10%;
+}
