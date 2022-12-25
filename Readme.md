@@ -7,3 +7,10 @@
 ## }
 
 Codigos HTML e CSS, separados para cada pagina,para uma melhor visualização*
+
+home = desktop 0
+start = desktop 1
+forms-1 = desktop 2
+forms-2 = desktop 3
+forms-3 = desktop 4
+sign = desktop 5
