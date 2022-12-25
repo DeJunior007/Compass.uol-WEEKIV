@@ -30,7 +30,7 @@ select {
     min-width: 460px;
     min-width: none;
 }
-input[type="checkbox"] {
+input[type="radio"] {
   appearance: none;
   cursor: pointer;
   width: 20px;
