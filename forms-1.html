@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Favicon-->
+    <link
+      rel="shortcut icon"
+      href="assets/imgs/favicon.ico"
+      type="image/x-icon"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/styles/gerais.css" />
+    <link rel="stylesheet" href="assets/styles/forms-1.css" />
+    <link rel="stylesheet" href="assets/medias/media-forms.css" />
+    <!--FONTS-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+    </style>
+    <!--SCRIPTS-->
+    <script src="scripts/change-page.js"></script>
+    <!--HTML-->
+    <title>Forms-one</title>
+  </head>
+  <body>
+    <section>
+      <aside>
+        <img src="assets/imgs/two.svg" alt="Forms-one-img" class="doll" />
+      </aside>
+      <article>
+        <h2>What is the status of your account?</h2>
+        <label for="choices"></label>
+        <select name="choices" id="select-choices">
+          <option
+            value="I have not created an account yet.
+          "
+          >
+            I have not created an account yet.
+          </option>
+          <option
+            value="I have not created an account yet.
+          "
+          >
+            I created an account yet.
+          </option>
+          <option
+            value="I have not created an account yet.
+          "
+          >
+            I never created an account yet.
+          </option>
+        </select>
+        <h3>In which financial markets do you operate?</h3>
+        <div class="input-container">
+          <input type="checkbox" id="c1" />
+          <p>
+            <label for="c1">stock market</label>
+          </p>
+          <input type="checkbox" id="c2" />
+          <p>
+            <label for="c2">foreign exchange</label>
+          </p>
+          <input type="checkbox" id="c3" />
+          <p>
+            <label for="c3">commobity</label>
+          </p>
+          <input type="checkbox" id="c4" />
+          <p>
+            <label for="c4">bond market</label>
+          </p>
+          <input type="checkbox" id="c5" />
+          <p>
+            <label for="c5">cryptocurrency market</label>
+          </p>
+        </div>
+        <div>
+          <button class="twin-button" onclick=goStartPage()>Back</button>
+          <button class="twin-button" onclick=goForms2()>Next</button>
+        </div>
+        <div>
+          <button>Skip</button>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
