@@ -1,7 +1,26 @@
-select{
-    min-width: 460px;
-    min-width: none;
+:root {
+    --font-color: #000000;
+    --button-color: #3eb25e;
+    --button-hover-color: #ffff7d;
+    --checkbox-color: #3eb25e4d;
+    --checkbox-hover-color: #3eb25e;
+  }
+select {
+  min-width: 460px;
+  min-width: none;
 }
-input[type=checkbox]{
-    border-radius: 5px;
+input[type="checkbox"] {
+  border-radius: 5px;
+  appearance: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: var(--checkbox-color);
+  margin-right: 2%;
+  display: block;
+  float: left;
 }
+input:checked {
+    background: var(--checkbox-hover-color);
+    transition: 0.3s ease-in;
+}  
