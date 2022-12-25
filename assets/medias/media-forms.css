@@ -1,0 +1,38 @@
+@media screen and (max-width: 650px) {
+    section {
+      flex-direction: column;
+    }
+    .doll{
+              width: 60%;
+              margin-left: 7%;
+              margin-bottom: 3%;
+    }
+    h3{
+        font-size: 1em;
+        margin-bottom: 2%;
+    }
+    h2{
+        font-size: 1.1em;
+        margin-bottom: 0;
+    }
+    select{
+        margin-top: 0;
+        min-width: 350px;
+    }
+    .input-container{
+        width: 70%;
+    }
+    label{
+        font-size: 1em;
+    }
+    .text-coment{
+        width: 50vw;
+        height: 25vh;
+    }
+    form{
+        height: 150px;
+    }
+    textarea{
+        height: 150px;
+    }
+}

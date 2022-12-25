@@ -1,0 +1,19 @@
+
+@media screen and (max-width: 650px) {
+    section {
+      flex-direction: column;
+    }
+    .doll{
+              width: 60%;
+              margin-left: 7%;
+    }
+    h2{
+        font-size: 1.8em;
+        margin-top: 5%;
+    }
+    p{
+        max-width: 330px;
+        margin-left: 10%;
+        font-size: 1.1em;
+    }
+}
