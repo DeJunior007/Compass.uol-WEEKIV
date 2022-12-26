@@ -12,10 +12,16 @@
     margin: 0;
     padding: 0;
 }
+aside{
+    width: 40%;
+}
 .page{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+section{
+    padding-top: 5%;
 }
 .doll{
     width: 80%;
