@@ -22,14 +22,6 @@ p{
     max-width: 440px;
     margin-bottom: 7%;
 }
-.button-start{
-:root{
-    --font-color: #000000;
-    --button-color: #3EB25E;
-    --button-hover-color: #FFFF7D;
-    --checkbox-color: #3EB25E4D;
-    --checkbox-hover-color: #3EB25E;
-}
 section{
     display: flex;
     justify-content: center;
@@ -67,7 +59,6 @@ p{
     color: black;
     transition: 0.2s ease-in;
     cursor: pointer;
-}
 }
 .button-start:hover{
     background: var(--button-hover-color);
