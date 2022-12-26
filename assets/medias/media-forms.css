@@ -3,7 +3,7 @@
       flex-direction: column;
     }
     .doll{
-              width: 60%;
+              width: 100%;
               margin-left: 7%;
               margin-bottom: 3%;
     }
@@ -35,4 +35,12 @@
     textarea{
         height: 150px;
     }
+    .twin-button {
+        width: 45%;
+        min-width: 120px;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 3%;
+      }
+      
 }
