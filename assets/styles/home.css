@@ -5,6 +5,9 @@
     --checkbox-color: #3EB25E4D;
     --checkbox-hover-color: #3EB25E;
 }
+section{
+    padding-top: 0;
+}
 .container-text{
     text-align: center;
 }
@@ -15,12 +18,13 @@ h1{
 h2{
     font-size: 2rem;
     margin: 5%;
+  
 }
 #button-home{
     border: none;
     background: var(--button-color) ;
-    width: 30%;
-    height: 20%;
+    width: 40%;
+    height: 40px;
     font-size: 1.5rem;
     font-weight: 1000;
     color: #ffffff;
