@@ -23,18 +23,51 @@ p{
     margin-bottom: 7%;
 }
 .button-start{
+:root{
+    --font-color: #000000;
+    --button-color: #3EB25E;
+    --button-hover-color: #FFFF7D;
+    --checkbox-color: #3EB25E4D;
+    --checkbox-hover-color: #3EB25E;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7%;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 7%;
+    max-width: 440px;
+}
+p{
+    font-size: 1.3rem;
+    max-width: 440px;
+    margin-bottom: 7%;
+}
+
+.button-start{
     color: #ffffff;
-    width: 30%;
-    max-width: 200px;
-    min-width: 120px;
     height: 30px;
     font-size: 1rem;
     background-color: var(--button-color);
     border: none;
     border-radius: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom:10% ;
+    width: 50%;
+    max-width: 192.5px;
+    min-width: 120px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+}
+.button-start:hover{
+    background: var(--button-hover-color);
+    color: black;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
 }
 .button-start:hover{
     background: var(--button-hover-color);
