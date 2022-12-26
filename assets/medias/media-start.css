@@ -3,9 +3,12 @@
     section {
       flex-direction: column;
     }
+    aside{
+        width: 80vw;
+      }
     .doll{
               width: 100%;
-              margin-left: 7%;
+           
     }
     h2{
         font-size: 1.8em;

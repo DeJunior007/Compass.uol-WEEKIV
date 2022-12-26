@@ -4,9 +4,12 @@
     }
     .doll{
               width: 100%;
-              margin-left: 7%;
+  
               margin-bottom: 3%;
     }
+    aside{
+        width: 70vw;
+      }
     h3{
         font-size: 1em;
         margin-bottom: 2%;
