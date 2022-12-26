@@ -26,7 +26,6 @@ textarea {
 }
 form {
     height: 20px;
-  }
 }
 button {
     margin-top: 5%;
@@ -37,4 +36,5 @@ button {
 }
 textarea::placeholder{
   font-size: 0.5em;
+}
 }
