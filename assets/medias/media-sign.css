@@ -1,0 +1,35 @@
+@media screen and (max-width: 650px) {
+    section {
+      flex-direction: column;
+    }
+    .doll{
+              width: 60%;
+              margin-left: 20%;
+    }
+    h2{
+        font-size: 1em;
+        margin-top: 5%;
+    }
+textarea {
+  width: 40vw;
+  height: 20px;
+  margin-top: 2%;
+}
+.little-area {
+  width: 70%;
+  margin-bottom: 10%;
+}
+.little-text{
+  width: 50%;
+}
+form {
+    height: 20px;
+  }
+}
+button {
+    margin-top: 5%;
+    width: 100%;
+    min-width: 0px;
+    height: 25px;
+    font-size: 1rem;
+}
