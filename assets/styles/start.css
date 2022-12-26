@@ -68,7 +68,6 @@ p{
     transition: 0.2s ease-in;
     cursor: pointer;
 }
-}
 .button-start:hover{
     background: var(--button-hover-color);
     color: black;
