@@ -6,7 +6,7 @@
     --checkbox-hover-color: #3EB25E;
 }
 section{
-    padding-top: 0;
+    padding: 0;
 }
 .container-text{
     text-align: center;
@@ -39,5 +39,6 @@ h2{
     cursor: pointer;
 }
 .doll{
-    padding-top: 10%;
+    width: 70%;
+    padding-top: 5%;
 }
