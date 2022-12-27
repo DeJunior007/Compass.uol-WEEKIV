@@ -20,3 +20,28 @@
         font-size: 1.1em;
     }
 }
+@media screen and (max-width: 400px) {
+  section {
+    flex-direction: column;
+  }
+  aside{
+      width: 80vw;
+    }
+  .doll{
+            width: 100%;
+         
+  }
+  h2{
+      font-size: 1.5em;
+      margin-top: 5%;
+  }
+  p{
+      max-width: 330px;
+      font-size: 1em;
+      margin-right: 10%;
+  }
+  .button-start{
+    width: 5%;
+    font-size: 0.8em;
+  }
+}
