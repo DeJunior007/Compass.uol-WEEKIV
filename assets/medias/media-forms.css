@@ -20,7 +20,7 @@
     }
     select{
         margin-top: 0;
-        min-width: 350px;
+        min-width: 100px;
     }
     .input-container{
         width: 70%;
@@ -69,13 +69,12 @@
     }
     select{
         margin-top: 0;
-        min-width: 350px;
     }
     .input-container{
         width: 70%;
     }
     label{
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .text-coment{
         width: 50vw;
