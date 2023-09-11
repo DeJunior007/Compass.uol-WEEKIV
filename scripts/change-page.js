@@ -2,7 +2,7 @@ function goStartPage() {
     location.href = "/start.html"
 };
 function goHomePage() {
-location.href = "/Home.html"
+location.href = "/index.html"
 };
 function goForms1() {
 location.href = "/Forms-1.html"
