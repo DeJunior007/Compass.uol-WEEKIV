@@ -1,52 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Favicon-->
-    <link
-      rel="shortcut icon"
-      href="assets/imgs/favicon.ico"
-      type="image/x-icon"
-    />
-    <!--CSS-->
-    <link rel="stylesheet" href="assets/styles/gerais.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/gerais.css">
     <link rel="stylesheet" href="assets/styles/sign.css">
     <link rel="stylesheet" href="assets/medias/media-sign.css">
-
-    <!--FONTS-->
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
     </style>
-    <!--SCRIPTS-->
     <script src="scripts/change-page.js"></script>
-    <!--HTML-->
-    <title>Sing-Up</title>
-  </head>
-  <body>    <section>
-    <aside>
-      <img src="assets/imgs/four.svg" alt="Forms-one-img" class="doll" />
-    </aside>
-    <article>
-      <h2>Full name:</h2>
-      <form>
-        <textarea placeholder="Tomas Shelby"></textarea>
-      </form>
-      <h2>Email:</h2>
-      <form>
-        <textarea placeholder="t.shelby@gmail.com"></textarea>
-      </form>
-      <h2>Age:</h2>
-      <form class="little-area">
-        <textarea class="little-text" placeholder="-- --"></textarea>
-      </form>
-      <div>
-        <button onclick=goForms3()>Back</button>
-      </div>
-      <div>
-        <button onclick=goHomePage()>Submit</button>
-      </div>
-    </article>
-  </section></body>
+    <title>Sign-Up</title>
+</head>
+<body>
+    <section>
+        <aside>
+            <img src="assets/imgs/four.svg" alt="Forms-one-img" class="doll">
+        </aside>
+        <article>
+            <h2>Full name:</h2>
+            <form>
+                <input type="text" placeholder="Tomas Shelby">
+            </form>
+            <h2>Email:</h2>
+            <form>
+                <input type="email" placeholder="t.shelby@gmail.com">
+            </form>
+            <h2>Age:</h2>
+            <form class="little-area">
+                <input type="text" class="little-text" placeholder="-- --">
+            </form>
+            <div>
+                <button onclick="goForms3()">Back</button>
+            </div>
+            <div>
+                <button onclick="goHomePage()">Submit</button>
+            </div>
+        </article>
+    </section>
+</body>
 </html>
